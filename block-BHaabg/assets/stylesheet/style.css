@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5,h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 32px;
+}
+.clearfix::before, .clearfix::after {
+	display: table;
+	content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.header {
+	width: 100%;
+	position: fixed;
+	background-color: black;
+}
+.logo {
+	width: 130px;
+	margin: 20px;
+}
+a {
+	margin: 10px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+.nav {
+	margin-top: 120px; 
+	width: 30%;
+	float: right;
+}
+.article {
+	background-color: #B2B2B2;
+	padding-top: 200px;
+}
+.article-heading {
+	font-size: 25px;
+	margin: 20px 0px;
+}
+.col {
+	line-height: 1.5;
+	width: 50%;
+	border-radius: 8px;
+	float: left;
+	padding: 32px;
+}
+.col p {
+	line-height: 1.8;
+}
+.img {
+	margin: 20px;
+	height: 550px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+.gallery {
+	background-color: black;
+}
+.gallery img {
+	object-fit: cover;
+	margin: 1.5%;
+	float: left;
+	width: 29.333%;
+	height: 350.312px;
+	border-radius: 6px;
+}
+.footer {
+	background-color: #014C99;
+	padding: 20px;
+}
+.fix {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 30px;
+	bottom: 10px;
+	border-radius: 50%;
+}
+.fix img {
+	width: 100%;
+	vertical-align: middle;
+}
